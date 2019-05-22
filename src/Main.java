@@ -31,10 +31,11 @@ public class Main {
         s.getScreenSNapshot();
         
         DropBox dr = new DropBox();
-        dr.saveToDropBox();
+        //dr.saveToDropBox();
         
-        //Пишете все три кода в IntelliJIdea, скриншот отправляете
-        // в телеграм-чат с хэш-тэгом #люблюджаву
+        MyThread myThread1 = new MyThread();
+        myThread1.start();
+        
 	}
 
 }
