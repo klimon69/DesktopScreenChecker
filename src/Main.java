@@ -30,9 +30,8 @@ public class Main {
         System.out.println(s.getScreenResolution());
         s.getScreenSNapshot();
         
-        //BufferedImage image; //Посмотреть в гугле, как получить скриншот экрана, распечатать его размеры
-        //image.getWidth();
-        //image.getHeight();
+        DropBox dr = new DropBox();
+        dr.saveToDropBox();
         
         //Пишете все три кода в IntelliJIdea, скриншот отправляете
         // в телеграм-чат с хэш-тэгом #люблюджаву

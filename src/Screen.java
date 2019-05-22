@@ -31,7 +31,7 @@ public class Screen
 		
 		try
 		{   
-			TimeUnit.SECONDS.sleep(1);
+			TimeUnit.SECONDS.sleep(2);
             Robot r = new Robot(); 
             Rectangle capture =  new Rectangle(Toolkit.getDefaultToolkit().getScreenSize()); 
             BufferedImage Image = r.createScreenCapture(capture); 
